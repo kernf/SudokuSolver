@@ -1,10 +1,12 @@
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class SudokuTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void solve() {
         int[][] input = new int[][]{
                 {0, 7, 5, 0, 9, 0, 0, 0, 6},

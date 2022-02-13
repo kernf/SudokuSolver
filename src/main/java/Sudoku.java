@@ -32,6 +32,7 @@ public class Sudoku {
                         intersect(inputCells[i][j], qs);
                         intersect(inputCells[i][j], rs);
                         intersect(inputCells[i][j], cs);
+                        updateSets(inputCells[i][j]);
                     }
                 }
             }
